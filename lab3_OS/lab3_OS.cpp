@@ -5,7 +5,7 @@
 DWORD WINAPI CalculationFunction(LPVOID lpParam);
 
 const uint64_t N = 100'000'000;
-const uint64_t blockSize = 110;
+const uint64_t blockSize = 930711*10;
 const long double invN = 1.0 / N;
 long double result = 0;
 std::atomic<unsigned> globalIterations = 0;
